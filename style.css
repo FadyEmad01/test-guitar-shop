@@ -1,0 +1,918 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #FDF8F0;
+   max-width: 100vw; 
+   overflow-x: hidden;
+}
+.nav{
+    position: fixed;
+    z-index: 100000;
+    background-color: #122a57;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 0px 100px;
+    
+}
+.navA a{
+    text-decoration: none;
+    color: #CAC0B3;
+    font-family: 'Signika', sans-serif;
+    padding: 0px 15px;
+}
+.nav .logo {
+    font-family: 'Fasthand', cursive;
+    color: #CAC0B3;
+    font-weight: 500;
+    font-size: 30px;
+}
+.navA a:hover {
+    color: #FDF8F0;
+    text-decoration: underline;
+}
+
+.welcome{
+    width: 100vw;
+    min-height: 100vh;
+}
+.gwa-allon{
+    background-image: linear-gradient(to bottom right, #e8ded2 40%, #a3d2ca 70%);
+    background-size: cover;
+    height: 22em;
+    width: 100%;
+    position: absolute;
+    top: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.welcome .gwa-allon img{
+    width: 500px;
+    height: 500px;
+}
+.welcome .gwa-allon .shr7 h1{
+    display: inline;
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    letter-spacing: 1px;
+    position: relative;
+    top: -155px;
+}
+.welcome .gwa-allon .shr7 p{
+    font-family: 'Signika', sans-serif;
+    letter-spacing: 0.5px;
+    position: relative;
+    top: -105px;
+    font-size: 18px;
+}
+.welcome .gwa-allon .shr7 button {
+    position: relative;
+    top: -43px;
+    background-color: #CAC0B3;
+    width: 80px;
+    height: 30px;
+    border-radius: 7px;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+
+.welcome .gwa-allon .shr7 button:hover {
+    background-color: #e8ded2;
+    transform: scale(1.1);
+}
+.special{
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.special1 h1 {
+    /* position: absolute;
+    top: 700px;
+    right: 510px; */
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    font-size: 50px;
+    padding: 150px 0px;
+}
+
+.guitar-prof {
+    background-image: url(sp1.png);
+    position: relative;
+    /* top: 850px;
+    left: 330px; */
+    width: 700px;
+    height: 300px;
+    background-size: 100% 100%;
+    overflow: hidden;
+    
+}
+
+.guitar-prof .caption {
+    background-color: #122a57;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #FDF8F0;
+    font-family: 'Signika', sans-serif;
+    position: absolute;
+    top: 300px;
+    border-radius: 30px;
+    transition: 0.2s;
+
+}
+
+.guitar-prof .caption h1 {
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.guitar-prof .caption p {
+    padding-bottom: 40px;
+
+}
+
+.guitar-prof .caption button {
+    background-color: #CAC0B3;
+    width: 80px;
+    height: 30px;
+    border-radius: 7px;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+
+.guitar-prof .caption button:hover {
+    background-color: #FDF8F0;
+    transform: scale(1.1);
+}
+
+.guitar-prof:hover .caption {
+    top: 0%;
+    left: 0%;
+    opacity: 0.6;
+}
+
+.contaner{
+    width: 85%;
+    margin: auto;
+}
+.contaner .head h1{
+    margin: auto;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    font-size: 50px;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 100%; */
+    justify-content: space-around;
+    
+}
+.flex .m1 img {
+    width: 100%;
+    height: 60%;
+    
+}
+.flex .m2 img {
+    width: 100%;
+    height: 60%;
+}
+.flex .m3 img{
+    width: 60%;
+    height: 70%;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.flex .m4 img{
+    width: 30%;
+    height: 80%;
+    transform: rotate(50deg);
+    margin-left: 0px;
+    margin-top: -51px;
+}
+.flex .m1 {
+    width: 470px;
+    height: 500px;
+    background-color: rgba(18, 42, 87, 0.114);
+    border-radius: 20px;
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+    margin: 20px 0px;
+}
+.flex .m2 {
+    width: 470px;
+    height: 500px;
+    background-color: rgba(18, 42, 87, 0.114);
+    border-radius: 20px;
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+    margin: 20px 0px;
+}
+.flex .m3 {
+    width: 470px;
+    height: 500px;
+    background-color: rgba(18, 42, 87, 0.114);
+    border-radius: 20px;
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+    margin: 20px 0px;
+}
+.flex .m4 {
+    width: 470px;
+    height: 500px;
+    background-color: rgba(18, 42, 87, 0.114);
+    border-radius: 20px;
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+    margin: 20px 0px;
+}
+.flex button {
+    background-color: #CAC0B3;
+    width: 80px;
+    height: 30px;
+    border-radius: 7px;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.flex button:hover {
+    background-color: #FDF8F0;
+    transform: scale(1.1);
+}
+.flex h1{
+    padding: 10px 0px;
+}
+.flex p{
+    padding: 10px 0px;
+}
+.flex .but1{
+margin-top: 60px;
+}
+.flex .but2{
+    margin-top: 10px;
+    }
+    
+
+
+
+
+
+.contaner2{
+    width: 85%;
+    margin: auto;
+}
+
+
+
+ .end {
+    /* position: absolute;
+    top: 2700px; */
+   font-family: 'Signika', sans-serif;
+    color: #122a57;
+    padding-top: 90px;
+
+}
+
+.end a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #a3d2ca;
+    font-family: 'Redacted Script', cursive;
+
+}
+
+.end a:hover {
+    color: #CAC0B3; 
+}
+
+/* lwh7t postion fe kol .m hl83 al comment men al position */
+ 
+
+
+
+
+
+.al7shw {
+    width: 100%;
+    height: 200px;
+
+    /* position: absolute;
+    top: 2750px; */
+}
+
+
+
+
+@media(max-width: 320px){
+
+    .nav{
+        position: fixed;
+        z-index: 100000;
+        background-color: #122a57;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 160vw;
+        padding: 0px 60px;
+        
+    }
+    .navA a{
+        text-decoration: none;
+        color: #CAC0B3;
+        font-family: 'Signika', sans-serif;
+        padding: 0px 15px;
+    }
+    .nav .logo {
+        font-family: 'Fasthand', cursive;
+        color: #CAC0B3;
+        font-weight: 500;
+        font-size: 30px;
+    }
+    .navA a:hover {
+        color: #FDF8F0;
+        text-decoration: underline;
+    }
+
+
+    .welcome{
+        width: 100vw;
+        min-height: 100vh;
+    }
+    .gwa-allon{
+        background-image: linear-gradient(to bottom right, #e8ded2 40%, #a3d2ca 70%);
+        background-size: cover;
+        height: 15em;
+        width: 160%;
+        position: absolute;
+        top: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .welcome .gwa-allon img{
+        width: 350px;
+        height: 350px;
+    }
+    .welcome .gwa-allon .shr7 h1{
+        display: inline;
+        font-family: 'Dancing Script', cursive;
+        font-size:47px;
+        letter-spacing: 1px;
+        position: relative;
+        top: -60px;
+    }
+    .welcome .gwa-allon .shr7 p{
+        font-family: 'Signika', sans-serif;
+        letter-spacing: 0.5px;
+        position: relative;
+        top: -20px;
+        font-size: 15px;
+    }
+    .welcome .gwa-allon .shr7 button {
+        position: relative;
+        top: -3px;
+        background-color: #CAC0B3;
+        width: 80px;
+        height: 30px;
+        border-radius: 7px;
+        cursor: pointer;
+        border: none;
+        transition: 0.3s;
+    }
+    
+    .welcome .gwa-allon .shr7 button:hover {
+        background-color: #e8ded2;
+        transform: scale(1.1);
+    }
+
+
+
+    .special{
+ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 50px;
+        
+    }
+    .special1 h1 {
+        /* position: absolute;
+        top: 700px;
+        right: 510px; */
+        font-family: 'Dancing Script', cursive;
+        font-weight: 900;
+        font-size: 47px;
+        padding: 80px 0px;
+        text-align: center;
+        margin-left: 00px;
+    }
+    
+    .guitar-prof {
+        background-image: url(sp1.png);
+        position: relative;
+        /* top: 850px;
+        left: 330px; */
+        width: 400px;
+        height: 150px;
+        background-size: 100% 100%;
+        overflow: hidden;
+        
+    }
+    
+    .guitar-prof .caption {
+        background-color: #122a57;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        color: #FDF8F0;
+        font-family: 'Signika', sans-serif;
+        position: absolute;
+        top: 300px;
+        border-radius: 30px;
+        transition: 0.2s;
+    
+    }
+    
+    .guitar-prof .caption h1 {
+        padding-top: 30px;
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+    
+    .guitar-prof .caption p {
+        padding-bottom: 20px;
+    
+    }
+    
+    .guitar-prof .caption button {
+        background-color: #CAC0B3;
+        width: 80px;
+        height: 30px;
+        border-radius: 7px;
+        cursor: pointer;
+        border: none;
+        transition: 0.3s;
+    }
+    
+    .guitar-prof .caption button:hover {
+        background-color: #FDF8F0;
+        transform: scale(1.1);
+    }
+    
+    .guitar-prof:hover .caption {
+        top: 0%;
+        left: 0%;
+        opacity: 0.6;
+    }
+    
+    
+    
+    
+   
+    
+    
+    
+    .al7shw {
+        width: 100%;
+        height: 200px;
+    
+        /* position: absolute;
+        top: 2750px;*/
+    } 
+    .end {
+        /* position: absolute;
+        top: 2700px; */
+        font-family: 'Signika', sans-serif;
+        color: #122a57;
+    
+    }
+    
+    .end a {
+        text-decoration: none;
+        cursor: pointer;
+        color: #a3d2ca;
+        font-family: 'Redacted Script', cursive;
+    
+    }
+    
+    .end a:hover {
+        color: #CAC0B3;
+    }
+
+}
+
+@media(max-width:375px){
+    .nav{
+        position: fixed;
+        z-index: 100000;
+        background-color: #122a57;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 135vw;
+        padding: 0px 40px;
+        
+    }
+    .navA a{
+        text-decoration: none;
+        color: #CAC0B3;
+        font-family: 'Signika', sans-serif;
+        padding: 0px 15px;
+    }
+    .nav .logo {
+        font-family: 'Fasthand', cursive;
+        color: #CAC0B3;
+        font-weight: 500;
+        font-size: 30px;
+    }
+    .navA a:hover {
+        color: #FDF8F0;
+        text-decoration: underline;
+    }
+
+
+    .welcome{
+        width: 100vw;
+        min-height: 100vh;
+    }
+    .gwa-allon{
+        background-image: linear-gradient(to bottom right, #e8ded2 40%, #a3d2ca 70%);
+        background-size: cover;
+        height: 15em;
+        width: 135%;
+        position: absolute;
+        top: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .welcome .gwa-allon img{
+        width: 350px;
+        height: 350px;
+        margin-left: -25px;
+    }
+    .welcome .gwa-allon .shr7 h1{
+        display: inline;
+        font-family: 'Dancing Script', cursive;
+        font-size:47px;
+        letter-spacing: 1px;
+        position: relative;
+        top: -60px;
+    }
+    .welcome .gwa-allon .shr7 p{
+        font-family: 'Signika', sans-serif;
+        letter-spacing: 0.5px;
+        position: relative;
+        top: -20px;
+        font-size: 15px;
+    }
+    .welcome .gwa-allon .shr7 button {
+        position: relative;
+        top: -3px;
+        background-color: #CAC0B3;
+        width: 80px;
+        height: 30px;
+        border-radius: 7px;
+        cursor: pointer;
+        border: none;
+        transition: 0.3s;
+    }
+    
+    .welcome .gwa-allon .shr7 button:hover {
+        background-color: #e8ded2;
+        transform: scale(1.1);
+    }
+
+
+
+    .special{
+ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 50px;
+        
+    }
+    .special1 h1 {
+        /* position: absolute;
+        top: 700px;
+        right: 510px; */
+        font-family: 'Dancing Script', cursive;
+        font-weight: 900;
+        font-size: 47px;
+        padding: 80px 0px;
+        text-align: center;
+        margin-left: 00px;
+    }
+    
+    .guitar-prof {
+        background-image: url(sp1.png);
+        position: relative;
+        /* top: 850px;
+        left: 330px; */
+        width: 400px;
+        height: 150px;
+        background-size: 100% 100%;
+        overflow: hidden;
+        
+    }
+    
+    .guitar-prof .caption {
+        background-color: #122a57;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        color: #FDF8F0;
+        font-family: 'Signika', sans-serif;
+        position: absolute;
+        top: 300px;
+        border-radius: 30px;
+        transition: 0.2s;
+    
+    }
+    
+    .guitar-prof .caption h1 {
+        padding-top: 30px;
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+    
+    .guitar-prof .caption p {
+        padding-bottom: 20px;
+    
+    }
+    
+    .guitar-prof .caption button {
+        background-color: #CAC0B3;
+        width: 80px;
+        height: 30px;
+        border-radius: 7px;
+        cursor: pointer;
+        border: none;
+        transition: 0.3s;
+    }
+    
+    .guitar-prof .caption button:hover {
+        background-color: #FDF8F0;
+        transform: scale(1.1);
+    }
+    
+    .guitar-prof:hover .caption {
+        top: 0%;
+        left: 0%;
+        opacity: 0.6;
+    }
+    
+    
+    
+    
+   
+    
+    
+    
+    .al7shw {
+        width: 100%;
+        height: 200px;
+    
+        /* position: absolute;
+        top: 2750px;*/
+    } 
+    .end {
+        /* position: absolute;
+        top: 2700px; */
+        font-family: 'Signika', sans-serif;
+        color: #122a57;
+    
+    }
+    
+    .end a {
+        text-decoration: none;
+        cursor: pointer;
+        color: #a3d2ca;
+        font-family: 'Redacted Script', cursive;
+    
+    }
+    
+    .end a:hover {
+        color: #CAC0B3;
+    }
+}
+
+
+@media(max-width:425px){
+    .nav{
+        position: fixed;
+        z-index: 100000;
+        background-color: #122a57;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 135vw;
+        padding: 0px 40px;
+        
+    }
+    .navA a{
+        text-decoration: none;
+        color: #CAC0B3;
+        font-family: 'Signika', sans-serif;
+        padding: 0px 15px;
+    }
+    .nav .logo {
+        font-family: 'Fasthand', cursive;
+        color: #CAC0B3;
+        font-weight: 500;
+        font-size: 30px;
+    }
+    .navA a:hover {
+        color: #FDF8F0;
+        text-decoration: underline;
+    }
+
+
+    .welcome{
+        width: 100vw;
+        min-height: 100vh;
+    }
+    .gwa-allon{
+        background-image: linear-gradient(to bottom right, #e8ded2 40%, #a3d2ca 70%);
+        background-size: cover;
+        height: 15em;
+        width: 135%;
+        position: absolute;
+        top: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .welcome .gwa-allon img{
+        width: 350px;
+        height: 350px;
+        margin-left: -10px;
+    }
+    .welcome .gwa-allon .shr7 h1{
+        display: inline;
+        font-family: 'Dancing Script', cursive;
+        font-size:50px;
+        letter-spacing: 1px;
+        position: relative;
+        top: -75px;
+    }
+    .welcome .gwa-allon .shr7 p{
+        font-family: 'Signika', sans-serif;
+        letter-spacing: 0.5px;
+        position: relative;
+        top: -40px;
+        font-size: 15px;
+    }
+    .welcome .gwa-allon .shr7 button {
+        position: relative;
+        top: -10px;
+        background-color: #CAC0B3;
+        width: 80px;
+        height: 30px;
+        border-radius: 7px;
+        cursor: pointer;
+        border: none;
+        transition: 0.3s;
+    }
+    
+    .welcome .gwa-allon .shr7 button:hover {
+        background-color: #e8ded2;
+        transform: scale(1.1);
+    }
+
+
+
+    .special{
+ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 90px;
+        
+    }
+    .special1 h1 {
+        /* position: absolute;
+        top: 700px;
+        right: 510px; */
+        font-family: 'Dancing Script', cursive;
+        font-weight: 900;
+        font-size: 47px;
+        padding: 80px 0px;
+        text-align: center;
+        margin-left: 00px;
+    }
+    
+    .guitar-prof {
+        background-image: url(sp1.png);
+        position: relative;
+        /* top: 850px;
+        left: 330px; */
+        width: 400px;
+        height: 150px;
+        background-size: 100% 100%;
+        overflow: hidden;
+        
+    }
+    
+    .guitar-prof .caption {
+        background-color: #122a57;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        color: #FDF8F0;
+        font-family: 'Signika', sans-serif;
+        position: absolute;
+        top: 300px;
+        border-radius: 30px;
+        transition: 0.2s;
+    
+    }
+    
+    .guitar-prof .caption h1 {
+        padding-top: 30px;
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+    
+    .guitar-prof .caption p {
+        padding-bottom: 20px;
+    
+    }
+    
+    .guitar-prof .caption button {
+        background-color: #CAC0B3;
+        width: 80px;
+        height: 30px;
+        border-radius: 7px;
+        cursor: pointer;
+        border: none;
+        transition: 0.3s;
+    }
+    
+    .guitar-prof .caption button:hover {
+        background-color: #FDF8F0;
+        transform: scale(1.1);
+    }
+    
+    .guitar-prof:hover .caption {
+        top: 0%;
+        left: 0%;
+        opacity: 0.6;
+    }
+    
+    
+    
+    
+   
+    
+    
+    
+    .al7shw {
+        width: 100%;
+        height: 200px;
+    
+        /* position: absolute;
+        top: 2750px;*/
+    } 
+    .end {
+        /* position: absolute;
+        top: 2700px; */
+        font-family: 'Signika', sans-serif;
+        color: #122a57;
+    
+    }
+    
+    .end a {
+        text-decoration: none;
+        cursor: pointer;
+        color: #a3d2ca;
+        font-family: 'Redacted Script', cursive;
+    
+    }
+    
+    .end a:hover {
+        color: #CAC0B3;
+    }
+}
+
+
+
